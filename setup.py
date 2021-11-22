@@ -7,5 +7,5 @@ setup(
     url="github.com/joeperdefloep/aquacrop-xs",
     author="Joep Gevaert",
     author_email="joepgevaert@gmail.com",
-    packages=["xsaquacrop"],
+    packages=["xaquacrop"],
 )

@@ -6,6 +6,7 @@ dependencies:
 
   # Testing
   - pytest
+  - pytest-parallel
 
   # code checks
   - black=21.5b2
@@ -22,6 +23,25 @@ dependencies:
   # Dask
   - dask
 
+  # For downloading online maps to run the model on
+  - earthengine-api
+  - wxee
+  # for working with vector data
+  - geopandas
+  # downloading soil
+  - owslib
+  - rioxarray
+  - rasterio
+
+
+
+  # for visualizing model graphs:
+  - graphviz
+  - python-graphviz
+
   - pip
   - pip:
     - git+https://github.com/Joeperdefloep/xarray-simlab/@docs
+    # for some reason this gave conflicts, but all requirements are satisfied above:
+    # Also for downloading SRTM maps
+    - elevation

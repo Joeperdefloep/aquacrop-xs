@@ -1,6 +1,6 @@
 import numpy as np
 
-import xsaquacrop as ac
+import xaquacrop as ac
 
 
 def test_soil_from_structural_parameters():
